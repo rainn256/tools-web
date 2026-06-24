@@ -55,14 +55,14 @@ onMounted(async () => {
       <p>
           <el-text>站长个人网站：<el-link type="primary" target="_blank" :href="siteAddr" class="">{{siteAddr}}</el-link></el-text>
         </p>
-         <p class="mt-2">
+         <!-- <p class="mt-2">
           <el-text>公众号：<el-text type="primary" class="font-medium">《全栈缝合车间》</el-text></el-text>
-        </p>
+        </p> -->
       </template>
 
       <h1 class="text-2xl font-bold mt-6 mb-6">友情链接</h1>
       <p>
-        <el-text>linux.do：<el-link href="https://linux.do" type="primary" target="_blank">https://linux.do</el-link></el-text>
+        <!-- <el-text>linux.do：<el-link href="https://linux.do" type="primary" target="_blank">https://linux.do</el-link></el-text> -->
       </p>
        
     </div>

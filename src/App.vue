@@ -94,9 +94,9 @@ const isHomePage = computed(() => {
         <SimilarRecommend v-if="!isSpecialPage && !componentStore.hideAllUI" />
         <Comments v-if="!isSpecialPage && !isHomePage && !componentStore.hideAllUI" />
       </el-main>
-      <!-- <el-footer v-if="!isSpecialPage" class="md:mb-6 mt-12 c-xs:mb-12">
+      <el-footer v-if="!isSpecialPage" class="md:mb-6 mt-12 c-xs:mb-12">
         <Floor />
-      </el-footer> -->
+      </el-footer>
     </el-container>
 
     <!-- 回到顶部 -->
